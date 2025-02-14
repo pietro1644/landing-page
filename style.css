@@ -60,6 +60,15 @@ ul, a, a:visited {
 }
 .left button {
     width: 80px;
+    background-color: #3882f6;
+    border: none;
+
+}
+
+.left button {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
 }
 .right {
     height: 200px;
@@ -69,6 +78,77 @@ ul, a, a:visited {
     align-items: center;
     background-color: slategray;
     color: #E5E7EB;
+}
+
+.some-random-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.some-random-info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.sub-head {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.photos-with-text {
+    display: flex;
+    align-self: center;
+    flex: 1;
+    width: 800px;
+    gap: 50px;
+}
+.card p {
+    margin: 0;
+    font-size: 18px;
+    color: grey;
+}
+.photo {
+    width: auto;
+    height: 160px;
+    outline: 5px solid #3882f6;
+    margin-bottom: 20px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.upper p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
+}
+
+.upper {
+    width: 800px;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.lower p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lower {
+    align-self: flex-end;
+    padding-right: 500px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 0 100px 0;
 }
 
 
