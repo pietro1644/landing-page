@@ -58,18 +58,22 @@ ul, a, a:visited {
     flex: 1;
     height: 200px;
 }
-.left button {
+.left a {
     width: 80px;
     background-color: #3882f6;
     border: none;
 
 }
 
-.left button {
+.sign-up-button1 {
+    display: flex;
+    justify-content: center;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
+    padding: 10px 0 10px 0;
 }
+
 .right {
     height: 200px;
     display: flex;
@@ -151,5 +155,69 @@ ul, a, a:visited {
     padding: 100px 0 100px 0;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    width: 1000px;
+    align-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.cta-left h3 {
+    font-size: 24px;
+    color: #E5E7EB;
+    margin: 0;
+}
+.cta-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #E5E7EB;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    height: 30px;
+    width: 120px;
+}
+.blue-box {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 200px;
+
+
+}
+.footer {
+    background-color: #1F2937;
+}
+.footer img {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.footer-box {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+.footer-box p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 
